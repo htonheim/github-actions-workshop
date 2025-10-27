@@ -40,7 +40,7 @@ jobs:
           path: dist/
       
       - name: Run tests
-        run: npm test
+        run: npm test:full-report
       
       - name: Upload coverage report
         uses: actions/upload-artifact@v4
